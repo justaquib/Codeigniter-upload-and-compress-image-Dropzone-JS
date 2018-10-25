@@ -148,7 +148,7 @@ Dropzone.options.myAwesomeDropzone = {
 		acceptedFiles: "image/*",
 		autoProcessQueue: false, //if this is "false" then the below #submit_dropzone_form will work.
   	uploadMultiple: true,
-  	parallelUploads:20,
+  	parallelUploads:1,
 		dictDefaultMessage: "Drop files here to upload",
 		addRemoveLinks:true,
 		dictUploadCanceled: true,
